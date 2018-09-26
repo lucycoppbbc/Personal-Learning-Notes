@@ -48,3 +48,4 @@ promise.catch(error); /*OR*/ promise.then(null, error);
 //it is good practise to reject with error objects
 //state and result are internal so cannot directly access them 
 
+//JAVASCRIPT.INFO
