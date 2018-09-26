@@ -11,4 +11,14 @@ let promise = new Promise(function(resolve, reject) { //resolve and reject are p
 //either resolve (value) were state is now fulfilled
 //or reject(error) where state is now rejected 
 
+//--------------------ACTUAL EXAMPLES------------------------
 
+//resolved promise
+let resolvedPromise = new Promise (function (resolve, reject){
+    setTimeout(() => resolve("done!"), 1000);
+})
+
+//rejected promise
+let rejectedPromise = new Promise (function (resolve, reject){
+    setTimeout (() => reject(new Error("Whoops!")),1000);
+})
